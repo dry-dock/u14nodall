@@ -3,7 +3,7 @@
 #base image already has node and nvm installed globally...
 
 echo "================= Updating global nodejs packages ==================="
-sudo npm install -g 
+sudo npm install -g \
   grunt-cli@1.2.0 \
   mocha@3.5.0 \
   vows@0.8.1 \
