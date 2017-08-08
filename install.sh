@@ -3,7 +3,7 @@
 #base image already has node and nvm installed globally...
 
 echo "================= Updating global nodejs packages ==================="
-sudo npm install -g grunt-cli mocha vows phantomjs casperjs
+sudo npm install -g grunt-cli mocha vows phantomjs-prebuilt casperjs
 
 echo "================ Installing selenium =================="
 sudo mkdir -p /srv
