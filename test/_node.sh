@@ -13,15 +13,14 @@ echo "nvm use 5.12.0"
 nvm use 5.12.0
 printf "\n"
 
-echo "nvm use 6.11.2"
-nvm use 6.11.2
+echo "nvm use 6.11.4"
+nvm use 6.11.4
 printf "\n"
 
 echo "nvm use 7.10.1"
 nvm use 7.10.1
 printf "\n"
 
-echo "nvm use 8.2.1"
-nvm use 8.2.1
+echo "nvm use 8.6.0"
+nvm use 8.6.0
 printf "\n"
-
