@@ -4,11 +4,12 @@ u14nodall
 Shippable CI image for node.js on ubuntu 14.04 with commonly used services. Available versions are:
 
  
-  1.  4.8.4
+  1.  4.8.7
   2.  5.12.0
-  3.  6.11.2
+  3.  6.11.5
   4.  7.10.1
-  5.  8.2.1
+  5.  8.9.4
+  6.  9.4.0
  
 
 Services:
