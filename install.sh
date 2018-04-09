@@ -11,7 +11,7 @@ sudo npm install -g \
   bower@1.8.4
   
   npm install -g --unsafe-perm \
-  phantomjs-prebuilt@2.1.16 
+    phantomjs-prebuilt@2.1.16 
 
 echo "================ Installing selenium =================="
 sudo mkdir -p /srv
