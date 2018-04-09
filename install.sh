@@ -5,15 +5,15 @@
 echo "================= Updating global nodejs packages ==================="
 sudo npm install -g \
   grunt-cli@1.2.0 \
-  mocha@4.0.1 \
+  mocha@5.0.5 \
   vows@0.8.1 \
-  phantomjs-prebuilt@2.1.15 \
+  phantomjs-prebuilt@2.1.16 \
   casperjs@1.1.4 \
-  bower@1.8.2
+  bower@1.8.4
 
 echo "================ Installing selenium =================="
 sudo mkdir -p /srv
-cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
+cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.11/selenium-server-standalone-3.11.0.jar
 
 for file in /u14nodall/version/*
 do
