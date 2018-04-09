@@ -28,3 +28,8 @@ printf "\n"
 echo "nvm use 9.5.0"
 nvm use 9.5.0
 printf "\n"
+
+
+echo "nvm use 9.11.1"
+nvm use 9.11.1
+printf "\n"
