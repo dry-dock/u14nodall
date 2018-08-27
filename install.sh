@@ -4,7 +4,7 @@
 
 echo "================= Updating global nodejs packages ==================="
 sudo npm install -g \
-  grunt-cli@1.2.0 \
+  grunt-cli@1.3.1 \
   mocha@5.2.0 \
   vows@0.8.2 \
   casperjs@1.1.4 \
