@@ -16,6 +16,6 @@ nvm use 8.12.0
 printf "\n
 
 
-echo "nvm use 10.10.0"
-nvm use 10.10.0
+echo "nvm use 10.12.0"
+nvm use 10.12.0
 printf "\n"
