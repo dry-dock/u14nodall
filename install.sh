@@ -15,7 +15,7 @@ sudo npm install -g \
 
 echo "================ Installing selenium =================="
 sudo mkdir -p /srv
-cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.14/selenium-server-standalone-3.14.0.jar
+cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.5.jar
 
 for file in /u14nodall/version/*
 do
