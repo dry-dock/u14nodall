@@ -13,9 +13,10 @@ sudo npm install -g \
   npm install -g --unsafe-perm \
     phantomjs-prebuilt@2.1.16 
 
+export SELENIUM_VERSION=3.141.59
 echo "================ Installing selenium =================="
 sudo mkdir -p /srv
-cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.5.jar
+cd /srv && wget -nv http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-"$SELENIUM_VERSION".jar
 
 for file in /u14nodall/version/*
 do
